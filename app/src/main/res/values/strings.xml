@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Poster Maker</string>
+
+    <string name="DesignOptionsInstruction">Long Press on your Design for Options.</string>
+    <string name="LOADING">Loading…</string>
+    <string name="NoDesigns">No Design saved. Check out Free Designs Or Create Poster and save as Design.</string>
+
+    <string name="camera">Camera</string>
+    <string name="create_dir_err">Can\'t create directory to save image.</string>
+    <string name="default_progressbar">Default Progressbar:</string>
+    <string name="define_roundedimageview" />
+    <string name="del_error_toast">Error occurred during deletion.</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="error">Error</string>
+
+    <string name="no">No</string>
+    <string name="no_layers">No Layers !!</string>
+    <string name="no_saved_pics">No saved pictures</string>
+    <string name="ok">OK</string>
+
+    <string name="permission">Permission!</string>
+    <string name="permission_des">Grant these permissions to use Poster Maker</string>
+    <string name="permission_des1">Note: You can also give permissions in Settings --&gt; apps --&gt; Poster Maker --&gt;Permissions</string>
+    <string name="picUpImg">select images</string>
+    <string name="plzwait">Please wait..</string>
+
+    <string name="save_err">Error while saving</string>
+    <string name="search_menu_title">Search</string>
+    <string name="select_picture">Select picture using</string>
+    <string name="settings">Settings</string>
+    <string name="share_image">Share</string>
+    <string name="share_text">I\'m using amazing Poster Maker! Get the free app at</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage">Storage</string>
+    <string name="template_error">no template found</string>
+    <string name="txt_backgrounds">Background</string>
+    <string name="txt_colorOpacty">Colors and Opacity</string>
+    <string name="txt_conti">continue</string>
+    <string name="txt_controls">Controls</string>
+    <string name="txt_curve">Curve</string>
+    <string name="txt_fonts">Fonts</string>
+    <string name="txt_shadow">Shadow</string>
+    <string name="txt_spacing">Space</string>
+    <string name="ucrop_error_input_data_is_absent">Both input and output Uri must be specified</string>
+    <string name="ucrop_label_edit_photo">Edit Photo</string>
+    <string name="ucrop_label_original">Original</string>
+    <string name="ucrop_menu_crop">Crop</string>
+    <string name="ucrop_mutate_exception_hint">Therefore, override color resource (ucrop_color_toolbar_widget) in your app to make it work on pre-L devices</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="in_app"><![CDATA[<string nRemove ads &amp; WaterMark]]></string>
+
+    <!--
+    <string name="fb_interstitial">YOUR_PLACEMENT_ID</string>
+-->
+    <string name="fb_interstitial">807889246710968_807893413377218</string>
+
+    <string name="admob_app_id">ca-app-pub-6132150242183780~1463034952</string>
+    <!--
+    <string name="banner_ads">/419163168/com.postermaker.flyerdesigner.creator.Banner</string>
+-->
+
+    <string name="memoryerror">you don\'t have enough space please check it</string>
+    <string name="title_activity_category_template">CategoryTemplateActivity</string>
+    <string name="title_activity_choose_size">ChooseSizeActivity</string>
+
+    <string name="string_massive_update">Plus Periodically update to our massive library.></string>
+
+    <string name="button_continue">Subscribe Now</string>
+    <string name="button_retry">Retry</string>
+
+    <string name="one_month">1 Month</string>
+    <string name="six_months">6 Months</string>
+    <string name="twelve_months">12 Months</string>
+
+    <string name="price_string">%1$s / %2$d months </string>
+
+    <!--    billing errors-->
+    <string name="error_no_skus">We didn\'t find any subscriptions to display&#8230; Check your internet connection or contact with developer.</string>
+    <string name="error_billing_unavailable">Billing unavailable. Check your internet connection or contact with developer.</string>
+    <string name="error_billing_default">Billing unavailable. Check your internet connection or contact with developer.</string>
+    <string name="extract_string">*</string>
+
+    <string name="profile_not_found">Profile not found</string>
+    <string name="vpn_not_supported_title">VPN not supported</string>
+    <string name="vpn_not_supported">Your device does not support VPN applications.\nPlease contact the manufacturer.</string>
+    <string name="vpn_not_supported_during_lockdown">VPN connections are not supported if a built-in VPN has the always-on feature enabled.</string>
+    <string name="vpn_not_supported_no_permission">Unable to get permission to create VPN connections. Either because it was denied by the user, or because a different VPN app has the always-on feature enabled.</string>
+    <string name="permanent_notification_name">VPN connection state</string>
+    <string name="permanent_notification_description">Provides information about the VPN connection state and serves as permanent notification to keep the VPN service running in the background.</string>
+    <string name="state_connecting">Connecting&#8230;</string>
+    <string name="state_connected">Connected</string>
+    <string name="state_disconnecting">Disconnecting&#8230;</string>
+    <string name="state_disabled">No active VPN</string>
+    <string name="login_title">Enter password to connect</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_confirm">Connect</string>
+    <string name="error_lookup_failed">Server address lookup failed</string>
+    <string name="error_unreachable">Server is unreachable</string>
+    <string name="error_peer_auth_failed">Verifying server authentication failed</string>
+    <string name="error_auth_failed">User authentication failed</string>
+    <string name="error_assessment_failed">Security assessment failed</string>
+    <string name="error_generic">Unspecified failure while connecting</string>
+    <string name="error_password_missing">Password unavailable</string>
+    <string name="error_certificate_unavailable">Client certificate unavailable</string>
+    <string name="vpn_connected">VPN connected</string>
+    <string name="vpn_profile_connected">This VPN profile is currently connected!</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="connect_profile_question">Connect %1$s?</string>
+    <string name="replaces_active_connection">This will replace your active VPN connection!</string>
+    <string name="disconnect_question">Disconnect VPN?</string>
+    <string name="disconnect_active_connection">This will disconnect the active VPN connection!</string>
+    <plurals name="retry_in">
+        <item quantity="one">Retry in %1$d second</item>
+        <item quantity="other">Retry in %1$d seconds</item>
+    </plurals>
+
+
+</resources>

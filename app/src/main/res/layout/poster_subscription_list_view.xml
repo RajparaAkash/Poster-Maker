@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/main_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/poster_package_border_inactive_bg"
+        android:padding="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/months"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 Months"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_12sdp"
+            style="@style/TextAppearance.AppCompat.Large" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="7dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@color/active_border_color" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            tools:text="PKR 358.33" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="per month"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Rs 4,300.00/12 months"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:gravity="center"
+            android:padding="@dimen/_2sdp"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="@dimen/_4sdp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/off_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="35% OFF"
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@android:color/white"
+        android:paddingLeft="@dimen/_8sdp"
+        android:paddingRight="@dimen/_8sdp"
+        android:paddingTop="@dimen/_4sdp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:background="@drawable/poster_blue_round_bg" />
+</RelativeLayout>
